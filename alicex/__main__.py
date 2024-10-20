@@ -55,7 +55,7 @@ async def init():
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("alicex").info("Stopping alice Music Bot...")
+    LOGGER("alicex").info("Stopping Freya Music Bot...")
 
 
 if __name__ == "__main__":
