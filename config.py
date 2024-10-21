@@ -11,7 +11,7 @@ API_ID = API_ID
 API_HASH = "API_HASH"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "8113611662:AAE7JrIo_E7iP2JRzaOZDRkvCw8LzmX9yQQ"
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = "MONGO_DB_URI"
@@ -19,10 +19,10 @@ MONGO_DB_URI = "MONGO_DB_URI"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = "-1002357764876"
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = "6928637808"
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
