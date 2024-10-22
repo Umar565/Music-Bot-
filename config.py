@@ -19,7 +19,7 @@ MONGO_DB_URI = "mongodb+srv://mainmusicbot:musicbotdatabase@cluster0.hbvhe.mongo
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = -1002357764876
+LOG_GROUP_ID = 1002357764876
 
 # Get this value from @ultron2_robot on Telegram by /id
 OWNER_ID = 6928637808
