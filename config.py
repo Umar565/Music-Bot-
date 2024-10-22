@@ -7,14 +7,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = "104857600"
-API_HASH = "5b1fd83b698e4e6670f3dcb053eecc06"
+API_ID = "104857670"
+API_HASH = "5b1fd83b698e4e6f3dcb053eecc06"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "8113611662:AAE7JrIo_E7iP2JRzaOZDRkvCw8LzmX9yQQ"
+BOT_TOKEN = ""
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "mongodb+srv://mainmusicbot:musicbotdatabase@cluster0.hbvhe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_DB_URI = ""
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
@@ -22,13 +22,13 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 LOG_GROUP_ID = "-1002357764876"
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = "6928637808"
+OWNER_ID = "6928634808"
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
 HEROKU_APP_NAME = getenv("mymusic")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HRKU-bf3ece1c-80c2-46d1-a64b-5fb01c345685")
+HEROKU_API_KEY = getenv("")
 
 UPSTREAM_REPO = getenv(
     "https://github.com/Umar565/Music-Bot-/tree/main",
@@ -47,8 +47,8 @@ AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("19d2fe49f79143fa90e75be9c95255db")
-SPOTIFY_CLIENT_SECRET = getenv("9e3e42756a8040a89424e7bf3343fa19")
+SPOTIFY_CLIENT_ID = getenv("")
+SPOTIFY_CLIENT_SECRET = getenv("")
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
