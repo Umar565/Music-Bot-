@@ -31,8 +31,8 @@ HEROKU_APP_NAME = getenv("mymusic")
 HEROKU_API_KEY = getenv("HRKU-bf3ece1c-80c2-46d1-a64b-5fb01c345685")
 
 UPSTREAM_REPO = getenv(
-    "https://github.com/rishabhops/alice",
-    "https://github.com/rishabhops/alice",
+    "https://github.com/Umar565/Music-Bot-.git",
+    "https://github.com/Umar565/Music-Bot-.git",
 )
 UPSTREAM_BRANCH = getenv("main")
 GIT_TOKEN = getenv(
